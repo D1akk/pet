@@ -66,3 +66,5 @@ php artisan jwt:secret --env=testing
 php artisan migrate --env=testing   
 php artisant test 
 ```
+
+Docker: при запуске нужно делать миграции и установить зависимости, как указано выше
